@@ -18,4 +18,4 @@ def graph(x,y):
 t = np.linspace(0, 2 * np.pi, 100)
 # Вызываем функцию для получения значений x и y
 x, y = parametric_function(t)
-
+graph(x,y)

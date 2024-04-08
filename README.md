@@ -4,9 +4,9 @@
 * ## [Лабораторная работа №1](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab1)
   > Решение систем алгебраических уравнений (СЛАУ). Реализовать решение матрицы методом Гаусса.
 * ## [Лабораторная работы №2](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab2)
-  > Реализовать параметрическую отрисовку графика функции.
+  > Реализовать метод Ньютона. Численное дифференциирования.
 * ## [Лабораторная работа №3](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab3)
-  > Численное дифференцирование (реализовать 2 метода).
+  > Построение графика разности между точными и приближеннымим значениями производными.
 * ## [Лабораторная работы №4](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab4)
   > Численное интегрирование (реализовать 2 метода).
 * ## [Лабораторная работа №5](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab5)
@@ -25,9 +25,9 @@
 * ## [Lab #1](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab1)
   > Solving systems of algebraic equations (SLAEs). Implement the matrix solution using the Gaussian method.
 * ## [Lab #2](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab2)
-   > Implement parametric drawing of a function graph.
+   > Implement Newton's method. Numerical differentiation.
 * ## [Lab #3](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab3)
-   > Numerical differentiation (implement 2 methods).
+   > Graph of the differences between the exact and approximate derivatives.
 * ## [Lab #4](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab4)
    > Numerical integration (implement 2 methods).
 * ## [Lab #5](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab5)

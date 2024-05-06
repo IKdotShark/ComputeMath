@@ -19,6 +19,7 @@
   > Разыгрывание случайной величины. Исследование Random-функции, создать большой массив псевдослучайных чисел, узнать сколько раз повторяются первые 5 чисел в таком же порядке (псевдопериод), посчитать мат.ожидание, дисперсию. Сформировать Случайную величину с наперед заданными значениями и их вероятностями (задание дискретной СВ).
 * ## [Лабораторная работы №9](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab9)
   > реализовать структуру данных - дерево (красно-черное дерево), задать рандомно дерево и посчитать его наибольшую глубину.
+* ## [Алгоритм Луна для банковских карт](https://github.com/IKdotShark/ComputeMath/wiki/LuneForCards)
 ---
 
 # ENG
@@ -40,3 +41,4 @@
    > Playing a random variable. Study of the Random function, create a large array of pseudo-random numbers, find out how many times the first 5 numbers are repeated in the same order (pseudo-period), calculate the expected value, variance. Generate a Random Variable with predetermined values and their probabilities (setting a discrete random variable).
 * ## [Lab #9](https://github.com/IKdotShark/ComputeMath/wiki/ComputMath_lab9)
    > implement a data structure - a tree (red-black tree), define a tree randomly and calculate its greatest depth.
+* ## [Luna Algorithm for credit-cards](https://github.com/IKdotShark/ComputeMath/wiki/LuneForCards)

@@ -1,13 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as mathplot
 
-'''
-def parametric_function(t):
-    x = 2 * np.sin(2* t)
-    y = 2 * np.cos(t)
-    return x, y
-'''
-
 def graph(x,y):
     mathplot.plot(x, y)
     mathplot.title('График функции')
@@ -39,6 +32,8 @@ def Accurate_Sec_Order_derivative(t):
 
 
 # Задаем диапазон параметра t
-h = 10**-3
+h = 10**-8
+
 t = np.linspace(0, 2 * np.pi, 100)
-graph(t, Accurate_Sec_Order_derivative(t) - Sec_Order_derivative(t, h))
+graph(t, Accurate_Total_derivative(t) - Left_derivative(t,h))
+#Accurate_Sec_Order_derivative(t) - Sec_Order_derivative(t, h)

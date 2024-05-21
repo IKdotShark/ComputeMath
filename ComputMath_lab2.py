@@ -1,12 +1,14 @@
+tol=1e-6
+max_iter=100
 def func(x):
-    return x ** 2 - 2  # Изначальная функция
+    return x ** 2 - 2
 
 def g(x):
-    return (x ** 2 + 2) / (2 * x)  # Выразим x из уравнения x = g(x)
+    return (x ** 2 + 2) / (2 * x)
 
 def func_derivative(x):
-    return 2 * x  # Производная функции f(x)
-def dihotomic_method(a, b, tol=1e-6, max_iter=100):
+    return 2 * x
+def dihotomic_method(a, b):
     if func(a) * func(b) > 0:
         return None  # Начальные точки должны быть с разными знаками
 
@@ -21,7 +23,7 @@ def dihotomic_method(a, b, tol=1e-6, max_iter=100):
 
     return (a + b) / 2  # Возвращается среднее значение отрезка
 
-def simple_iteration(x0, tol=1e-6, max_iter=100):
+def simple_iteration(x0):
     x = x0
     for _ in range(max_iter):
         x_new = g(x)  # Получаем новое приближенное значение
@@ -30,27 +32,20 @@ def simple_iteration(x0, tol=1e-6, max_iter=100):
         x = x_new
     return x
 
-def newton_method(x0, tol=1e-6, max_iter=100):
+def newton_method(x0):
     x = x0
     for _ in range(max_iter):
-        x_new = x - func(x) / func_derivative(x)  # Формула метода Ньютона, получаем приближенное значение корня
+        x_new = x - func(x) / func_derivative(x)
         if abs(x_new - x) < tol:
             return x_new
         x = x_new
     return x
 
-# Пример использования метода дихотомии
 root = dihotomic_method(1, 2)
 print("Метод дихотомии:", root)
 
-# Пример использования метода простых итераций
 root = simple_iteration(1)
 print("Метод простых итераций:", root)
 
-# Пример использования метода Ньютона
 root = newton_method(1)
 print("Метод Ньютона:", root)
-
-# tol=1e-6 : предел точности/допустимая абсолютная ошибка
-
-# Бояршинов 2006/ч.4/с.27
